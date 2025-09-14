@@ -5,7 +5,7 @@
 This is my personal **portfolio website** where I showcase my skills, projects, education, and experiences as a Computer Science student (B.Tech CSE, 2025).  
 The portfolio is designed to be clean, responsive, and interactive — giving a quick overview of who I am and what I can do.
 
-# **Click on Link to check my Portfolio ** -- https://kunalpaunikar.github.io/portfoliokp/
+- Click on Link to check my Portfolio ->  https://kunalpaunikar.github.io/portfoliokp/
 
 ---
 

@@ -96,7 +96,10 @@ cd portfolio
 
 📬 Contact
 
-Name: Kunal Subodh Paunikar
-Email: kunalpaunikar13@gmail.com
-GitHub: github.com/kunalpaunikar
-LinkedIn: linkedin.com/in/kunal-paunikar
+- Name: Kunal Subodh Paunikar
+
+- Email: kunalpaunikar13@gmail.com
+
+- GitHub: github.com/kunalpaunikar
+
+- LinkedIn: linkedin.com/in/kunal-paunikar

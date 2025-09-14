@@ -49,7 +49,7 @@ Portfolio/
 *(Add your own screenshots here)*  
 
 - **Home Section:** Typing animation + profile picture
-  
+  ![image alt](https://github.com/kunalpaunikar/portfoliokp/blob/f0ecdf618fa6375c983bedee80215c7f984caf52/images/homepage.png)
 
 - **Expertise Section:** Service cards with icons  
 - **Skills Section:** Animated circular progress bars  

@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Kunal Paunikar</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+        
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Expertise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Education">Education</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#contact" class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block" style="text-decoration: none;">Contact</a>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+<section class="home pt-5 pb-5" id="home">
+  <div class="row justify-content-evenly align-middle">
+    <!-- here data-aos is used for adding aos animation  -->
+    <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+
+      <!-- typing effect for Hey I am -->
+      <h2><span id="typing-hey"></span></h2>
+
+      <!-- typing effect for Name -->
+      <h3><span id="typing-name" class="c-orange"></span></h3>
+
+      <p>I love <span class="highlight">Coding</span> and <span class="highlight">Designing</span>.</p>
+
+      <p class="text-muted">
+        B.Tech in CSE (2025) fresher with strong skills in Java, Spring Boot, Hibernate, 
+        MySQL, HTML, and CSS. Hands-on experience with REST APIs, Git/GitHub, and responsive 
+        UI design through internship and academic projects. Actively seeking an entry-level 
+        Java/Software Developer role to apply my skills and grow in a dynamic environment.
+      </p>
+      <br>
+      <a href="#contact" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" 
+        style="text-decoration:none; color:#fff;">
+        Hire Me
+      </a>
+
+      <a href="" class="link ms-4 d-none">See My Work</a>
+    </div>
+    
+    <div class="col-10 col-md-4 text-center">
+      <img src="images/profilepic.png" class="img-fluid" alt="profile picture" />
+    </div>
+    
+  </div>
+</section>
+<!-- home section ends here -->
+
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Full-Stack Development with Java <br />
+          & Modern Tools
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/backend.png"
+                class="w-50 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Backend <br> Java,SpringBoot & MySQL</h4>
+              <p class="text-muted">
+                Building robust RESTful services using Java, Spring Boot, Hibernate and MySQL
+                with secure data access and clean architecture. Focus on scalability
+                and performance.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/frontend.png"
+                class="w-50 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Frontend <br> HTML, CSS, JavaScript</h4>
+              <p class="text-muted">
+                Building accessible, responsive UIs with semantic HTML5, modern CSS3
+                and vanilla JavaScript for clean, maintainable interfaces.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/tools.png"
+                class="w-50 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Tools & Version Control</h4>
+              <p class="text-muted">
+                Daily use of Git/GitHub, Postman and Eclipse/IntelliJ for
+                collaborative development, API testing and efficient workflows.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Java</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Spring Boot, Hibernate</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">MySQL</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">0%</span>
+                </div>
+                <br>
+                <span class="text"> Html,Css,JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small><br>
+            <h3>Java Full Stack </h3><br><br>
+            <p class="text-muted">
+              Strong core Java with Spring Boot, Hibernate/JPA and MySQL. Experience
+              building REST APIs and responsive UIs. Comfortable with Git/GitHub,
+              Eclipse and Postman. Basic knowledge of JavaScript for client‑side
+              enhancements.
+            </p>
+            <div class="mt-2">
+              <span class="badge bg-secondary me-2">Java</span>
+              <span class="badge bg-secondary me-2">C++</span>
+              <span class="badge bg-secondary me-2">Python</span>
+              <span class="badge bg-secondary me-2">Spring Boot</span>
+              <span class="badge bg-secondary me-2">Hibernate</span>
+              <span class="badge bg-secondary me-2">MySQL</span>
+              <span class="badge bg-secondary me-2">Git & GitHub</span>
+              <span class="badge bg-secondary me-2">Postman</span>
+              <span class="badge bg-secondary me-2">Eclipse</span>
+              <span class="badge bg-secondary me-2">JavaScript (Basic)</span>
+              <span class="badge bg-secondary me-2"> Maven </span>
+              <span class="badge bg-secondary me-2"> JDBC</span>
+            </div><br>
+            <a
+              class="c-btn h-btn mt-3 py-3 px-5 rounded-pill"
+              href="Kunal_Paunikar_Resume.pdf"
+              download
+              target="_blank" rel="noreferrer"
+              style="text-decoration: none;color: #fff; display: inline-block;"
+            >Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <h3>Check My Projects</h3>
+      </div>
+       
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/evyatra.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">EV Yatra Charging Station </h4>
+                <span class="badge bg-secondary badge-pill">Java</span>
+                <span class="badge bg-secondary badge-pill">Spring Boot</span>
+                <span class="badge bg-secondary badge-pill mb-2">MySQL</span
+                ><br />
+                <a href="https://github.com/kunalpaunikar/evyatra_chargingstation" class="link" target="_blank" rel="noreferrer">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/handmadeproduct.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title"> Pakkify - Platform to Sale handmade Product</h4>
+                <span class="badge bg-secondary badge-pill">Java</span>
+                <span class="badge bg-secondary badge-pill">Spring Boot</span>
+                <span class="badge bg-secondary badge-pill mb-2">Hibernate</span
+                ><br />
+                <a href="https://github.com/kunalpaunikar/Pakkify" class="read-more-btn link" target="_blank" rel="noreferrer">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/attendance.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Face Recognition Online attendance</h4>
+                <span class="badge bg-secondary badge-pill">Java</span>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill mb-2">OpenCV</span>
+                <span class="badge bg-secondary badge-pill mb-2"> Mega Project</span
+                  <br /><br>
+                <a href="https://github.com/kunalpaunikar/Face-Recognition-Based-Online-Attendance-System" class="read-more-btn link" target="_blank" rel="noreferrer">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/calculator.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title"> Theme Calculator </h4>
+                <span class="badge bg-secondary badge-pill">Html</span>
+                <span class="badge bg-secondary badge-pill"> Css</span>
+                <span class="badge bg-secondary badge-pill mb-2"> JavaScript</span
+                ><br />
+                <a href="https://github.com/kunalpaunikar/Simple-Calculator-" class="read-more-btn link" target="_blank" rel="noreferrer">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/virtualmouse.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title"> Virtual Mouse Using Hand Gestures</h4>
+                <span class="badge bg-secondary badge-pill"> Python </span>
+                <span class="badge bg-secondary badge-pill"> OpenCV</span>
+                <span class="badge bg-secondary badge-pill mb-2"> Mediapipe</span>
+                <span class="badge bg-secondary badge-pill mb-2"> Mini Project </span
+                <br /><br>
+                <a href="https://github.com/kunalpaunikar/VIRTUALMOUSE" class="read-more-btn link" target="_blank" rel="noreferrer">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/aivoicebot.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title"> Ai Voice Assistant Bot </h4>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">Speech Recognition</span>
+                <span class="badge bg-secondary badge-pill mb-2">Text to Speech</span
+                ><br />
+                <a href="https://github.com/kunalpaunikar/AI-ASSISTANT" class="read-more-btn link" target="_blank" rel="noreferrer">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- Experience section starts  -->
+    <section class="experience mt-5 pt-5" id="Experience">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10" data-aos="slide-right">
+          <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+          <div class="heading">
+            <small>Experience</small>
+            <h3>Internship Experience</h3>
+            <!-- here we will use carousel element from bootstrap -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Junior Associate Technology – Prosofos Inc (Dec 2024 – Jul 2025).
+                        Worked on mini projects using HTML5 & CSS3 for responsive UIs,
+                        collaborated via Git and followed best practices.
+                      </p>
+                      <h4>Prosofos Inc</h4>
+                      <small class="fs-6 text-muted">Internship · Dec 2024 – Jul 2025</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Built responsive UI components, improved cross‑browser
+                        alignment and collaborated through branch‑based workflows and
+                        code reviews.
+                      </p>
+                      <h4>Key Contributions</h4>
+                      <small class="fs-6 text-muted">Frontend & Collaboration</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Documented work clearly and presented weekly progress;
+                        ensured responsive layouts and reusable components.
+                      </p>
+                      <h4>Outcomes</h4>
+                      <small class="fs-6 text-muted">Impact</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience ends here -->
+
+    <!-- Education section starts -->
+<section class="education mt-5 pb-5" id="Education">
+  <div class="heading text-center pt-5">
+    <small>Education</small>
+    <h3>Academic Background</h3>
+  </div>
+  <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+
+    <!-- B.Tech -->
+    <div class="educationpost col-md-4 col-10 mt-2 mt-md-0 game all">
+      <div class="card">
+        <img src="images/pjlce1.png" class="card-img-top rounded-4" alt="..." />
+        <div class="card-body px-4">
+          <small>B.Tech CSE</small><span class="ms-3">2021–2025</span>
+          <h4 class="card-title">
+            <a href="http://pjlce.edu.in/" target="_blank">
+              Priyadarshini J L College of Engineering, Nagpur
+            </a>
+          </h4>
+          <p class="text-muted">Nagpur University. Percentage: 77.20%.</p>
+          <a href="http://pjlce.edu.in/" target="_blank" class="read-more-btn link">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- HSC -->
+    <div class="educationpost col-md-4 col-10 mt-5 mt-md-0 website all">
+      <div class="card">
+        <img src="images/newenglish1.png" class="card-img-top rounded-4" alt="..." />
+        <div class="card-body px-4">
+          <small>HSC (12th) – Science</small><span class="ms-3">2021</span>
+          <h4 class="card-title">
+            <a href="https://schools.org.in/nagpur/27091506912/new-english-high-sch-jr-c.html" target="_blank">
+              New English Junior College, Mahal Nagpur
+            </a>
+          </h4>
+          <p class="text-muted">Percentage: 84.17%.</p>
+          <a href="https://schools.org.in/nagpur/27091506912/new-english-high-sch-jr-c.html" target="_blank" class="read-more-btn link">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SSC -->
+    <div class="educationpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+      <div class="card">
+        <img src="images/umiyashankar1.png" class="card-img-top rounded-4" alt="..." />
+        <div class="card-body px-4">
+          <small>SSC (10th)</small><span class="ms-3">2019</span>
+          <h4 class="card-title">
+            <a href="https://schools.org.in/nagpur/27091506102/shri-umiya-shankar-narayanji-h-s&-jr-col.html" target="_blank">
+              Shri Umiyashankar Narayanji High School
+            </a>
+          </h4>
+          <p class="text-muted">Percentage: 77.60%.</p>
+          <a href="https://schools.org.in/nagpur/27091506102/shri-umiya-shankar-narayanji-h-s&-jr-col.html" target="_blank" class="read-more-btn link">Read More</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Nagpur, Maharashtra</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 7499927900</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>kunalpaunikar13@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <div class="col-11">
+              <p>www.linkedin.com/in/kunal-paunikar/</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="footer-name pt-4" data-aos="fade-up">Kunal Subodh Paunikar</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#service">Expertise</a>
+        <div class="vr"></div>
+        <a href="#about">Skills</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Projects</a>
+        <div class="vr"></div>
+        <a href="#Experience">Experience</a>
+        <div class="vr"></div>
+        <a href="#Education">Education</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <a href="https://github.com/kunalpaunikar" target="_blank" class="rounded-pill behance">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kunal-paunikar" target="_blank" class="rounded-pill dribble">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="mailto:kunalpaunikar13@gmail.com" class="rounded-pill whatsapp">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+      </div>
+      
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2025 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+    <script>
+      const text = "Kunal Paunikar";
+      let i = 0;
+      function typingEffect() {
+        if (i < text.length) {
+          document.getElementById("typing").innerHTML += text.charAt(i);
+          i++;
+          setTimeout(typingEffect, 150); // typing speed
+        }
+      }
+      typingEffect();
+      </script>
+      
+      <!-- typed.js script -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  // typing effect for "Hey I am"
+  new Typed("#typing-hey", {
+    strings: ["Hey I am"],
+    typeSpeed: 80,
+    backSpeed: 50,
+    showCursor: false,
+  });
+
+  // typing effect for "Kunal Paunikar"
+  setTimeout(() => {
+    new Typed("#typing-name", {
+      strings: ["Kunal Paunikar"],
+      typeSpeed: 90,
+      backSpeed: 50,
+      showCursor: true,
+    });
+  }, 1500); // wait till first text finishes
+</script>
+
+  </body>
+</html>
+
+

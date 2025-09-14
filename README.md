@@ -1,1 +1,76 @@
 # portfoliokp
+
+# Personal Portfolio - Kunal Paunikar
+
+This is my personal **portfolio website** where I showcase my skills, projects, education, and experiences as a Computer Science student (B.Tech CSE, 2025).  
+The portfolio is designed to be clean, responsive, and interactive — giving a quick overview of who I am and what I can do.
+
+---
+
+## 🌟 Features
+
+- Responsive design (works on desktop & mobile)
+- Sticky navigation bar with smooth scrolling
+- Typing animation for introduction text
+- Animated circular progress bars for skills
+- Project showcase with filter option
+- Education & experience timeline
+- Resume download option
+- Contact form & social media links
+- Back-to-top button with smooth effect
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Frameworks & Libraries:** Bootstrap 5, AOS (Animate On Scroll), jQuery  
+- **Icons:** Bootstrap Icons  
+- **Other:** Responsive design with custom animations
+
+---
+
+## 📂 Project Structure
+
+Portfolio/
+│── index.html # Main HTML file
+│── css/
+│ └── style.css # Custom styles
+│── js/
+│ └── script.js # JavaScript logic
+│── images/ # Images and icons
+│── Kunal_Paunikar_Resume.pdf # Resume file
+
+
+---
+
+## 📸 Screenshots
+
+*(Add your own screenshots here)*  
+
+- **Home Section:** Typing animation + profile picture  
+- **Expertise Section:** Service cards with icons  
+- **Skills Section:** Animated circular progress bars  
+- **Projects Section:** Portfolio cards with filter buttons  
+- **Contact Section:** Contact form + social links  
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   
+2. Open the project folder and run index.html in any modern browser:
+
+cd portfolio
+
+3. That’s it 🎉 Your portfolio is live locally.
+
+📬 Contact
+
+Name: Kunal Subodh Paunikar
+Email: kunalpaunikar13@gmail.com
+GitHub: github.com/kunalpaunikar
+LinkedIn: linkedin.com/in/kunal-paunikar

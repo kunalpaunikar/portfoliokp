@@ -46,15 +46,39 @@ Portfolio/
 
 ## 📸 Screenshots
 
-*(Add your own screenshots here)*  
-
-- **Home Section:** Typing animation + profile picture
+- Home Section:
+  
   ![image alt](https://github.com/kunalpaunikar/portfoliokp/blob/f0ecdf618fa6375c983bedee80215c7f984caf52/images/homepage.png)
 
-- **Expertise Section:** Service cards with icons  
-- **Skills Section:** Animated circular progress bars  
-- **Projects Section:** Portfolio cards with filter buttons  
-- **Contact Section:** Contact form + social links  
+- Expertise Section:
+  
+  ![image alt](https://github.com/kunalpaunikar/portfoliokp/blob/d616d011135e7884138f530265c3bff6a77e9dd9/images/myexpertise.png)
+
+- Skills Section:
+
+  ![image alt](https://github.com/kunalpaunikar/portfoliokp/blob/d616d011135e7884138f530265c3bff6a77e9dd9/images/myskills.png)
+
+- Projects Section:
+
+  ![image alt](https://github.com/kunalpaunikar/portfoliokp/blob/f689d99b85baff8d26019a90d581b31c995e5a12/images/project1.png)
+
+  ![image alt](https://github.com/kunalpaunikar/portfoliokp/blob/f689d99b85baff8d26019a90d581b31c995e5a12/images/project2.png)
+  
+- Experience Section:
+
+  ![image alt](https://github.com/kunalpaunikar/portfoliokp/blob/d616d011135e7884138f530265c3bff6a77e9dd9/images/experience.png)
+
+- Education Section:
+
+  ![image alt](https://github.com/kunalpaunikar/portfoliokp/blob/d616d011135e7884138f530265c3bff6a77e9dd9/images/education.png)
+
+- Contact Section:
+
+  ![image alt](https://github.com/kunalpaunikar/portfoliokp/blob/d616d011135e7884138f530265c3bff6a77e9dd9/images/contact.png)
+
+- Footer Section:
+
+  ![image alt](https://github.com/kunalpaunikar/portfoliokp/blob/d616d011135e7884138f530265c3bff6a77e9dd9/images/footer.png)
 
 ---
 

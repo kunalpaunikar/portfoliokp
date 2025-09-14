@@ -23,10 +23,10 @@ The portfolio is designed to be clean, responsive, and interactive — giving a 
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Frameworks & Libraries:** Bootstrap 5, AOS (Animate On Scroll), jQuery  
-- **Icons:** Bootstrap Icons  
-- **Other:** Responsive design with custom animations
+- Frontend: HTML5, CSS3, JavaScript  
+- Frameworks & Libraries:Bootstrap 5, AOS (Animate On Scroll), jQuery  
+- Icons: Bootstrap Icons  
+- Other: Responsive design with custom animations
 
 ---
 
@@ -48,7 +48,9 @@ Portfolio/
 
 *(Add your own screenshots here)*  
 
-- **Home Section:** Typing animation + profile picture  
+- **Home Section:** Typing animation + profile picture
+  
+
 - **Expertise Section:** Service cards with icons  
 - **Skills Section:** Animated circular progress bars  
 - **Projects Section:** Portfolio cards with filter buttons  
